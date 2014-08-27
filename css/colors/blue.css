@@ -81,13 +81,26 @@ background: #3598db;
 	color:#fff;
 }
 
-.btn.btn-default{
-   background: #3598db;
+.btn.btn-default{   
+   background: #ffffff;
+   color: #3598db
 }
 
 .btn.btn-default:hover,
-.btn.btn-default:active{
+.btn.btn-default:active{    
+    color:white;
+    background-color: #3598db;
+}
+
+.btn.btn-inversi{   
+   background: #3598db;
+   color: white
+}
+
+.btn.btn-inversi:hover,
+.btn.btn-inversi:active{    
     color:#3598db;
+    background-color: white
 }
 
 

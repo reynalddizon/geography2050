@@ -186,7 +186,7 @@ h1,h2,h3,h4,h5,h6{
 
 
 #page-about{
-    padding: 75px 0;
+    padding: 50px 0;
     background:#fff;
 }
 
@@ -200,7 +200,7 @@ h1,h2,h3,h4,h5,h6{
 
 
 #page-services{
-    padding: 75px 0;
+    padding: 50px 0;
     background:#f7f7f7;
     text-align: center;
 }
@@ -208,22 +208,22 @@ h1,h2,h3,h4,h5,h6{
 
 
 #page-team{
-    padding: 75px 0;
+    padding: 50px 0;
     background:#fff;
 }
 
 #page-pricing{
-    padding: 75px 0;
+    padding: 50px 0;
     background:#f7f7f7;
 }
 
 #page-blog{
-    padding: 75px 0;
+    padding: 50px 0;
     background:#f7f7f7;
 }
 
 #page-portfolio-controls{
-    padding: 25px 0;
+    padding: 50px 0 0 0;
     background:#fff;
 
 }
@@ -236,7 +236,7 @@ h1,h2,h3,h4,h5,h6{
 }
 
 #page-contact{
-    padding: 75px 0;
+    padding: 50px 0;
 }
 
 #page-contact .contact-info p{
@@ -341,9 +341,9 @@ h1,h2,h3,h4,h5,h6{
     padding:20px 0;
 }
 
-.spacer {
-    width: 100px;
-    height: 5px;
+.spacer {    
+    width: 150px;
+    height: 2px;
     margin: auto;
 }
 
@@ -445,7 +445,7 @@ h1,h2,h3,h4,h5,h6{
   margin: 15px;
   width: 150px;
   height: 150px;
-  border-radius: 50%;
+  border-radius: 25%;
   text-align: center;
   position: relative;
   z-index: 1;
@@ -457,7 +457,7 @@ h1,h2,h3,h4,h5,h6{
   position: absolute;
   width: 100%;
   height: 100%;
-  border-radius: 50%;
+  border-radius: 25%;
   content: '';
   -webkit-box-sizing: content-box;
   -moz-box-sizing: content-box;
@@ -532,8 +532,9 @@ h1,h2,h3,h4,h5,h6{
    Services
 ========================================================================== */
 
-.service-block{
+.service-block{  
   margin:0 0 25px 0;
+  height: 375px;
   background: #FFF;
   -webkit-box-shadow: 5px 5px 0px 0px #E8E8E8;
   box-shadow: 5px 5px 0px 0px #E8E8E8;
@@ -719,16 +720,24 @@ ul#grid li.mix .overlay i{
 /* ==========================================================================
    Team Section
    ========================================================================== */
-.team-block {
+.team-block {  
   background: #F7F7F7;
-  border-radius: 8px 8px 0 0;
+  border-radius: 15px;
   width: 100%;
   padding: 40px 0 0;
   margin-top: 50px;
 }
 
+.team-block-sm {  
+  background: #F9F9F9;
+  border-radius: 15px;
+  width: 100%;
+  padding: 10px;
+  margin-top: 50px;
+}
 
-.team-block .photo img {
+
+.team-block .photo1 img {
   width: 165px;
   height: 165px;
   border-radius: 50%;
@@ -736,13 +745,37 @@ ul#grid li.mix .overlay i{
   display: block;
 }
 
-.team-block .name-team {
-  font-size: 16px;
+.team-block .photo2 img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin: 0 auto;
+  display: block;
+}
+
+.team-block-sm .photo3 img {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  margin: 0 auto;
+  display: block;
+}
+
+.service-block .photo img {
+  width: 140px;
+  height: 160px;
+  border-radius: 50%;
+  margin: 0 auto;
+  display: block;
+}
+
+.team-block .name-team {  
+  font-size: 18px;
+  height:80px;
   font-weight: 700;
   color: #2c3e50;
   text-align: center;
-  padding: 4px 0;
-  text-decoration: underline;
+  padding: 15px 0;
 }
 
 .team-block .team-title{
@@ -856,10 +889,10 @@ a.btn-linkedin:visited{
   margin-bottom: 5px;
   padding: 0 8px;
   letter-spacing: 0.1em;
-  line-height: 2em;
+  line-height: 1.2em;
   text-transform: uppercase;
   color: #fff;
-
+  
 }
 
 /* Browser Resets
@@ -889,7 +922,7 @@ a.btn-linkedin:visited{
 /* FlexSlider Necessary Styles
 *********************************/
 .flexslider {margin: 0;
-padding-top: 10%;}
+padding-top: 05%;}
 .flexslider .slides > li {display: none; -webkit-backface-visibility: hidden;} /* Hide the slides before the JS is loaded. Avoids image jumping */
 .flexslider .slides img {width: 100%; display: block;}
 .flex-pauseplay span {text-transform: capitalize;}
@@ -1187,13 +1220,13 @@ html[xmlns] .slides {display: block;}
     margin: 10px auto 0;
     position: relative;
     color: #fff;
-    font-size: 1em;
+    font-size: 1.2em;
     text-transform: uppercase;
     font-weight: 600;
     text-align: center;
     padding: 12px 26px 12px;
     cursor: pointer;
-    border-radius: 0;
+    border-radius: 4px;
     letter-spacing: 2px;
     pointer-events: auto;
     border:none;
@@ -1268,14 +1301,14 @@ label.valid{
 
 .gmap-wrapper{
   border:solid 2px #fff;
-  width:354px;
+  width:254px;
   height:354px;
   margin-top:;
 }
 
 .gmap{
   border:none;
-  width:350px;
+  width:250px;
   height:350px;
 }
 
@@ -1584,4 +1617,45 @@ margin: 0 35px;
     ul#grid li.mix{
        width: 50%;
    }
+}
+
+.carousel {
+    margin-bottom: 0;
+    padding: 0 40px 30px 40px;
+}
+/* The controlsy */
+.carousel-control {
+	left: -12px;
+    height: 40px;
+	width: 40px;
+    background: none repeat scroll 0 0 #222222;
+    border: 4px solid #FFFFFF;
+    border-radius: 23px 23px 23px 23px;
+    margin-top: 90px;
+}
+.carousel-control.right {
+	right: -12px;
+}
+/* The indicators */
+.carousel-indicators {
+	right: 50%;
+	top: auto;
+	bottom: -10px;
+	margin-right: -19px;
+}
+/* The colour of the indicators */
+.carousel-indicators li {
+	background: #cecece;
+}
+.carousel-indicators .active {
+background: #428bca;
+}
+
+.subtext {
+	font-size: 1.2em;
+	color: white;
+}
+
+.options {
+	text-align:left;
 }
